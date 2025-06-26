@@ -1,0 +1,28 @@
+{
+  "name": "riot-merch-prac-ui",
+  "version": "1.0.0",
+  "description": "an unfinished sideproject made with typescript and sass for frontend",
+  "keywords": [
+    "practice",
+    "sass",
+    "typescript",
+    "frontend"
+  ],
+  "homepage": "https://github.com/Akeboshiii/riot-merch-ui-prac#readme",
+  "bugs": {
+    "url": "https://github.com/Akeboshiii/riot-merch-ui-prac/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akeboshiii/riot-merch-ui-prac.git"
+  },
+  "license": "ISC",
+  "author": "Akeboshiii",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "build:scss": "sass src/scss:dist/css",
+    "build:ts": "tsc",
+    "run:build": "npm run build:scss && npm run build:ts"
+  }
+}
